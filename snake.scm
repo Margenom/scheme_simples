@@ -1,3 +1,5 @@
+; Copyright (C) 2022 Daniil Shvachkin
+; Released under the terms of the 3-clause BSD license 
 (import ncurses srfi-1 (rename (chicken random) (pseudo-random-integer random)))
 
 (define (putpoint cord ch)

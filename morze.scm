@@ -1,3 +1,5 @@
+; Copyright (C) 2022 Daniil Shvachkin
+; Released under the terms of the 3-clause BSD license 
 (import srfi-1 utf8)
 
 (define alpha '( 

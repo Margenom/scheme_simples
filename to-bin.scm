@@ -1,3 +1,5 @@
+; Copyright (C) 2022 Daniil Shvachkin
+; Released under the terms of the 3-clause BSD license 
 (define (float-to-bin F L)
   (let* ((M (* F 2)) (B (truncate M)) (T (- M B)))
     (display (if (zero? B) 0 1))

@@ -1,4 +1,5 @@
-
+; Copyright (C) 2022 Daniil Shvachkin
+; Released under the terms of the 3-clause BSD license 
 (define*(hasher String Size (Base 64))
 	(let ((Out 0)) (map (lambda(K) 
 		(set! Out (modulo (+ (* Base Out) (char->integer K)) Size))) String) Out))

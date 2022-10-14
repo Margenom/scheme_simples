@@ -1,3 +1,5 @@
+; Copyright (C) 2022 Daniil Shvachkin
+; Released under the terms of the 3-clause BSD license 
 (import ncurses srfi-1 srfi-25 (rename (chicken random) (pseudo-random-integer random)))
 
 (define GAME_PLACE '(4 4))
